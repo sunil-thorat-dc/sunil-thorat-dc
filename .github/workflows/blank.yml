@@ -34,10 +34,14 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
+      # Terraform fmt 
+      - name: Run a Terraform fmt
+      run: Terraform fmt
+      
       # Terraform Init 
       - name: Run a Terraform Init 
-      run: Terraform Init 
+         run: Terraform Init 
+      
       # Terraform Plan 
       - name: Run a Terraform plan 
       run: Terraform plan 
