@@ -1,7 +1,7 @@
 provider "google" {
-  project = "terrademo"
-  region  = "europe-west3"
-  zone    = "europe-west3-a"
+  project = "my-project"
+  region  = "us-central1"
+  access_token = "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"
 }
 
 terraform {
