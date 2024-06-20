@@ -1,3 +1,9 @@
+provider "google" {
+  project = "terrademo"
+  region  = "europe-west3"
+  zone    = "europe-west3-a"
+}
+
 terraform {
   required_providers {
     google = {
