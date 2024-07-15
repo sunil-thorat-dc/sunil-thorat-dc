@@ -1,13 +1,5 @@
-terraform {
-  required_providers {
-    google = {
-      source  = "hashicorp/google"
-      version = "5.29.1"
-    }
-    google-beta = {
-      source  = "hashicorp/google-beta"
-      version = "5.28.0"
-    }
-  }
+resource "google_project" "my_project" {
+  name       = "My_Project"
+  project_id = "my_first_demo123"
+  org_id     = "1234567"
 }
-
